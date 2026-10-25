@@ -1,0 +1,487 @@
+2026-10-05 03:50:08.542 | INFO     | utils.logger:log_section:160 - ============================================================
+2026-10-05 03:50:08.545 | INFO     | utils.logger:log_section:161 -   فحص البيئة
+2026-10-05 03:50:08.545 | INFO     | utils.logger:log_section:162 - ============================================================
+2026-10-05 03:50:08.546 | INFO     | __main__:check_environment:59 - 🔍 فحص اتصال ADB...
+2026-10-05 03:50:09.959 | ERROR    | __main__:check_environment:67 - ❌ لا يوجد هاتف متصل عبر USB!
+2026-10-05 03:50:09.959 | ERROR    | __main__:check_environment:68 -    تأكد من:
+2026-10-05 03:50:09.961 | ERROR    | __main__:check_environment:69 -    1. تفعيل USB Debugging في الهاتف
+2026-10-05 03:50:09.962 | ERROR    | __main__:check_environment:70 -    2. توصيل الكابل
+2026-10-05 03:50:09.963 | ERROR    | __main__:check_environment:71 -    3. الموافقة على الطلب في الهاتف
+2026-10-05 03:50:09.964 | ERROR    | __main__:check_environment:72 - 
+2026-10-05 03:50:09.964 | ERROR    | __main__:check_environment:73 -    جرّب: adb devices
+2026-10-05 03:53:34.629 | INFO     | utils.logger:log_section:160 - ============================================================
+2026-10-05 03:53:34.630 | INFO     | utils.logger:log_section:161 -   فحص البيئة
+2026-10-05 03:53:34.632 | INFO     | utils.logger:log_section:162 - ============================================================
+2026-10-05 03:53:34.634 | INFO     | __main__:check_environment:59 - 🔍 فحص اتصال ADB...
+2026-10-05 03:53:34.972 | ERROR    | __main__:check_environment:67 - ❌ لا يوجد هاتف متصل عبر USB!
+2026-10-05 03:53:34.973 | ERROR    | __main__:check_environment:68 -    تأكد من:
+2026-10-05 03:53:34.976 | ERROR    | __main__:check_environment:69 -    1. تفعيل USB Debugging في الهاتف
+2026-10-05 03:53:34.978 | ERROR    | __main__:check_environment:70 -    2. توصيل الكابل
+2026-10-05 03:53:34.980 | ERROR    | __main__:check_environment:71 -    3. الموافقة على الطلب في الهاتف
+2026-10-05 03:53:34.982 | ERROR    | __main__:check_environment:72 - 
+2026-10-05 03:53:34.983 | ERROR    | __main__:check_environment:73 -    جرّب: adb devices
+2026-10-05 04:25:33.487 | INFO     | utils.logger:log_section:160 - ============================================================
+2026-10-05 04:25:33.489 | INFO     | utils.logger:log_section:161 -   فحص البيئة
+2026-10-05 04:25:33.490 | INFO     | utils.logger:log_section:162 - ============================================================
+2026-10-05 04:25:33.490 | INFO     | __main__:check_environment:59 - 🔍 فحص اتصال ADB...
+2026-10-05 04:25:34.833 | SUCCESS  | __main__:check_environment:77 - ✅ متصل بالهاتف: SM-A515F
+2026-10-05 04:25:34.839 | INFO     | __main__:check_environment:78 -    الدقة: 1080x2400
+2026-10-05 04:25:34.840 | INFO     | __main__:check_environment:79 -    Android: 13
+2026-10-05 04:25:34.841 | WARNING  | __main__:check_environment:83 - ⚠️  المشروع غير معاير!
+2026-10-05 04:25:34.841 | INFO     | __main__:check_environment:84 -    شغّل أولاً: python main.py --calibrate
+2026-10-05 04:25:56.336 | INFO     | utils.logger:log_section:160 - ============================================================
+2026-10-05 04:25:56.337 | INFO     | utils.logger:log_section:161 -   فحص البيئة
+2026-10-05 04:25:56.338 | INFO     | utils.logger:log_section:162 - ============================================================
+2026-10-05 04:25:56.338 | INFO     | __main__:check_environment:59 - 🔍 فحص اتصال ADB...
+2026-10-05 04:25:57.490 | SUCCESS  | __main__:check_environment:77 - ✅ متصل بالهاتف: SM-A515F
+2026-10-05 04:25:57.491 | INFO     | __main__:check_environment:78 -    الدقة: 1080x2400
+2026-10-05 04:25:57.492 | INFO     | __main__:check_environment:79 -    Android: 13
+2026-10-05 04:25:57.492 | WARNING  | __main__:check_environment:83 - ⚠️  المشروع غير معاير!
+2026-10-05 04:25:57.493 | INFO     | __main__:check_environment:84 -    شغّل أولاً: python main.py --calibrate
+2026-10-05 04:26:34.876 | INFO     | utils.logger:log_section:160 - ============================================================
+2026-10-05 04:26:34.877 | INFO     | utils.logger:log_section:161 -   وضع المعايرة
+2026-10-05 04:26:34.878 | INFO     | utils.logger:log_section:162 - ============================================================
+2026-10-05 04:26:35.143 | INFO     | utils.calibration:run_interactive:86 - ============================================================
+2026-10-05 04:26:35.143 | INFO     | utils.calibration:run_interactive:87 - 🎯 أداة معايرة Block Blast
+2026-10-05 04:26:35.144 | INFO     | utils.calibration:run_interactive:88 - ============================================================
+2026-10-05 04:26:35.145 | INFO     | utils.calibration:run_interactive:89 - 
+2026-10-05 04:26:35.145 | INFO     | utils.calibration:run_interactive:90 - 📖 التعليمات:
+2026-10-05 04:26:35.145 | INFO     | utils.calibration:run_interactive:91 -    1. ستظهر نافذة بصورة شاشة الهاتف
+2026-10-05 04:26:35.146 | INFO     | utils.calibration:run_interactive:92 -    2. انقر على النقاط المطلوبة بالترتيب
+2026-10-05 04:26:35.146 | INFO     | utils.calibration:run_interactive:93 -    3. انقر على **مركز** الخلية الأولى (وليس حافتها)
+2026-10-05 04:26:35.146 | INFO     | utils.calibration:run_interactive:94 - 
+2026-10-05 04:26:35.147 | INFO     | utils.calibration:run_interactive:95 - ⌨️  المفاتيح:
+2026-10-05 04:26:35.147 | INFO     | utils.calibration:run_interactive:96 -    [R] إعادة الخطوة الحالية
+2026-10-05 04:26:35.148 | INFO     | utils.calibration:run_interactive:97 -    [S] حفظ المعايرة
+2026-10-05 04:26:35.148 | INFO     | utils.calibration:run_interactive:98 -    [Q] خروج بدون حفظ
+2026-10-05 04:26:35.149 | INFO     | utils.calibration:run_interactive:99 - 
+2026-10-05 04:26:39.852 | INFO     | utils.calibration:_capture_screen:141 - 📸 جاري التقاط صورة من الهاتف...
+2026-10-05 04:26:43.089 | SUCCESS  | utils.calibration:_capture_screen:158 - ✅ تم التقاط الصورة: 1080x2400
+2026-10-05 04:26:43.134 | INFO     | utils.calibration:_create_window:171 - 🖼️  اضغط على الصورة لتحديد النقاط
+2026-10-05 04:27:13.922 | INFO     | __main__:<module>:402 - 
+⏹️  خروج
+2026-10-05 04:46:22.120 | INFO     | utils.logger:log_section:160 - ============================================================
+2026-10-05 04:46:22.121 | INFO     | utils.logger:log_section:161 -   وضع المعايرة
+2026-10-05 04:46:22.122 | INFO     | utils.logger:log_section:162 - ============================================================
+2026-10-05 04:46:22.721 | INFO     | utils.calibration:run_interactive:86 - ============================================================
+2026-10-05 04:46:22.722 | INFO     | utils.calibration:run_interactive:87 - 🎯 أداة معايرة Block Blast
+2026-10-05 04:46:22.723 | INFO     | utils.calibration:run_interactive:88 - ============================================================
+2026-10-05 04:46:22.724 | INFO     | utils.calibration:run_interactive:89 - 
+2026-10-05 04:46:22.725 | INFO     | utils.calibration:run_interactive:90 - 📖 التعليمات:
+2026-10-05 04:46:22.726 | INFO     | utils.calibration:run_interactive:91 -    1. ستظهر نافذة بصورة شاشة الهاتف
+2026-10-05 04:46:22.726 | INFO     | utils.calibration:run_interactive:92 -    2. انقر على النقاط المطلوبة بالترتيب
+2026-10-05 04:46:22.727 | INFO     | utils.calibration:run_interactive:93 -    3. انقر على **مركز** الخلية الأولى (وليس حافتها)
+2026-10-05 04:46:22.727 | INFO     | utils.calibration:run_interactive:94 - 
+2026-10-05 04:46:22.728 | INFO     | utils.calibration:run_interactive:95 - ⌨️  المفاتيح:
+2026-10-05 04:46:22.729 | INFO     | utils.calibration:run_interactive:96 -    [R] إعادة الخطوة الحالية
+2026-10-05 04:46:22.729 | INFO     | utils.calibration:run_interactive:97 -    [S] حفظ المعايرة
+2026-10-05 04:46:22.730 | INFO     | utils.calibration:run_interactive:98 -    [Q] خروج بدون حفظ
+2026-10-05 04:46:22.731 | INFO     | utils.calibration:run_interactive:99 - 
+2026-10-05 04:46:25.067 | INFO     | utils.calibration:_capture_screen:141 - 📸 جاري التقاط صورة من الهاتف...
+2026-10-05 04:46:27.825 | SUCCESS  | utils.calibration:_capture_screen:158 - ✅ تم التقاط الصورة: 1080x2400
+2026-10-05 04:46:27.876 | INFO     | utils.calibration:_create_window:171 - 🖼️  اضغط على الصورة لتحديد النقاط
+2026-10-05 04:46:31.645 | INFO     | utils.calibration:_on_mouse:212 - 📍 الزاوية العلوية اليسرى للوحة: (320, 20)
+2026-10-05 04:46:31.645 | INFO     | utils.calibration:_on_mouse:222 -    التالي: الزاوية العلوية اليمنى للوحة
+2026-10-05 04:46:44.923 | INFO     | utils.calibration:_on_mouse:212 - 📍 الزاوية العلوية اليمنى للوحة: (192, 1832)
+2026-10-05 04:46:44.923 | INFO     | utils.calibration:_on_mouse:222 -    التالي: الزاوية السفلية اليسرى للوحة
+2026-10-05 04:46:47.777 | INFO     | utils.calibration:_on_mouse:212 - 📍 الزاوية السفلية اليسرى للوحة: (120, 1188)
+2026-10-05 04:46:47.778 | INFO     | utils.calibration:_on_mouse:222 -    التالي: الزاوية السفلية اليمنى للوحة
+2026-10-05 04:47:05.458 | INFO     | __main__:<module>:402 - 
+⏹️  خروج
+2026-10-05 04:47:55.566 | INFO     | utils.logger:log_section:160 - ============================================================
+2026-10-05 04:47:55.567 | INFO     | utils.logger:log_section:161 -   وضع المعايرة
+2026-10-05 04:47:55.568 | INFO     | utils.logger:log_section:162 - ============================================================
+2026-10-05 04:47:55.858 | INFO     | utils.calibration:run_interactive:86 - ============================================================
+2026-10-05 04:47:55.858 | INFO     | utils.calibration:run_interactive:87 - 🎯 أداة معايرة Block Blast
+2026-10-05 04:47:55.860 | INFO     | utils.calibration:run_interactive:88 - ============================================================
+2026-10-05 04:47:55.861 | INFO     | utils.calibration:run_interactive:89 - 
+2026-10-05 04:47:55.861 | INFO     | utils.calibration:run_interactive:90 - 📖 التعليمات:
+2026-10-05 04:47:55.862 | INFO     | utils.calibration:run_interactive:91 -    1. ستظهر نافذة بصورة شاشة الهاتف
+2026-10-05 04:47:55.863 | INFO     | utils.calibration:run_interactive:92 -    2. انقر على النقاط المطلوبة بالترتيب
+2026-10-05 04:47:55.863 | INFO     | utils.calibration:run_interactive:93 -    3. انقر على **مركز** الخلية الأولى (وليس حافتها)
+2026-10-05 04:47:55.864 | INFO     | utils.calibration:run_interactive:94 - 
+2026-10-05 04:47:55.864 | INFO     | utils.calibration:run_interactive:95 - ⌨️  المفاتيح:
+2026-10-05 04:47:55.865 | INFO     | utils.calibration:run_interactive:96 -    [R] إعادة الخطوة الحالية
+2026-10-05 04:47:55.865 | INFO     | utils.calibration:run_interactive:97 -    [S] حفظ المعايرة
+2026-10-05 04:47:55.866 | INFO     | utils.calibration:run_interactive:98 -    [Q] خروج بدون حفظ
+2026-10-05 04:47:55.866 | INFO     | utils.calibration:run_interactive:99 - 
+2026-10-05 04:47:55.868 | INFO     | utils.calibration:_capture_screen:141 - 📸 جاري التقاط صورة من الهاتف...
+2026-10-05 04:47:57.758 | SUCCESS  | utils.calibration:_capture_screen:158 - ✅ تم التقاط الصورة: 1080x2400
+2026-10-05 04:47:57.802 | INFO     | utils.calibration:_create_window:171 - 🖼️  اضغط على الصورة لتحديد النقاط
+2026-10-05 04:50:46.957 | INFO     | __main__:<module>:402 - 
+⏹️  خروج
+2026-10-05 04:50:49.352 | INFO     | utils.logger:log_section:160 - ============================================================
+2026-10-05 04:50:49.353 | INFO     | utils.logger:log_section:161 -   وضع المعايرة
+2026-10-05 04:50:49.353 | INFO     | utils.logger:log_section:162 - ============================================================
+2026-10-05 04:50:49.636 | INFO     | utils.calibration:run_interactive:86 - ============================================================
+2026-10-05 04:50:49.637 | INFO     | utils.calibration:run_interactive:87 - 🎯 أداة معايرة Block Blast
+2026-10-05 04:50:49.638 | INFO     | utils.calibration:run_interactive:88 - ============================================================
+2026-10-05 04:50:49.638 | INFO     | utils.calibration:run_interactive:89 - 
+2026-10-05 04:50:49.639 | INFO     | utils.calibration:run_interactive:90 - 📖 التعليمات:
+2026-10-05 04:50:49.640 | INFO     | utils.calibration:run_interactive:91 -    1. ستظهر نافذة بصورة شاشة الهاتف
+2026-10-05 04:50:49.640 | INFO     | utils.calibration:run_interactive:92 -    2. انقر على النقاط المطلوبة بالترتيب
+2026-10-05 04:50:49.641 | INFO     | utils.calibration:run_interactive:93 -    3. انقر على **مركز** الخلية الأولى (وليس حافتها)
+2026-10-05 04:50:49.641 | INFO     | utils.calibration:run_interactive:94 - 
+2026-10-05 04:50:49.641 | INFO     | utils.calibration:run_interactive:95 - ⌨️  المفاتيح:
+2026-10-05 04:50:49.642 | INFO     | utils.calibration:run_interactive:96 -    [R] إعادة الخطوة الحالية
+2026-10-05 04:50:49.642 | INFO     | utils.calibration:run_interactive:97 -    [S] حفظ المعايرة
+2026-10-05 04:50:49.643 | INFO     | utils.calibration:run_interactive:98 -    [Q] خروج بدون حفظ
+2026-10-05 04:50:49.643 | INFO     | utils.calibration:run_interactive:99 - 
+2026-10-05 04:50:56.032 | INFO     | utils.calibration:_capture_screen:141 - 📸 جاري التقاط صورة من الهاتف...
+2026-10-05 04:50:57.810 | SUCCESS  | utils.calibration:_capture_screen:158 - ✅ تم التقاط الصورة: 1080x2400
+2026-10-05 04:50:57.858 | INFO     | utils.calibration:_create_window:171 - 🖼️  اضغط على الصورة لتحديد النقاط
+2026-10-05 04:51:06.002 | INFO     | utils.calibration:_on_mouse:212 - 📍 الزاوية العلوية اليسرى للوحة: (92, 694)
+2026-10-05 04:51:06.003 | INFO     | utils.calibration:_on_mouse:222 -    التالي: الزاوية العلوية اليمنى للوحة
+2026-10-05 04:51:09.461 | INFO     | utils.calibration:_on_mouse:212 - 📍 الزاوية العلوية اليمنى للوحة: (990, 688)
+2026-10-05 04:51:09.462 | INFO     | utils.calibration:_on_mouse:222 -    التالي: الزاوية السفلية اليسرى للوحة
+2026-10-05 04:51:14.131 | INFO     | utils.calibration:_on_mouse:212 - 📍 الزاوية السفلية اليسرى للوحة: (100, 1560)
+2026-10-05 04:51:14.132 | INFO     | utils.calibration:_on_mouse:222 -    التالي: الزاوية السفلية اليمنى للوحة
+2026-10-05 04:51:18.075 | INFO     | utils.calibration:_on_mouse:212 - 📍 الزاوية السفلية اليمنى للوحة: (982, 1560)
+2026-10-05 04:51:18.075 | INFO     | utils.calibration:_on_mouse:222 -    التالي: مركز القطعة الأولى (يسار)
+2026-10-05 04:51:34.611 | INFO     | utils.calibration:_on_mouse:212 - 📍 مركز القطعة الأولى (يسار): (988, 692)
+2026-10-05 04:51:34.612 | INFO     | utils.calibration:_on_mouse:222 -    التالي: مركز القطعة الثانية (وسط)
+2026-10-05 04:51:36.571 | INFO     | utils.calibration:_on_mouse:212 - 📍 مركز القطعة الثانية (وسط): (992, 700)
+2026-10-05 04:51:36.572 | INFO     | utils.calibration:_on_mouse:222 -    التالي: مركز القطعة الثالثة (يمين)
+2026-10-05 04:51:54.002 | INFO     | __main__:<module>:402 - 
+⏹️  خروج
+2026-10-05 04:51:56.344 | INFO     | utils.logger:log_section:160 - ============================================================
+2026-10-05 04:51:56.345 | INFO     | utils.logger:log_section:161 -   وضع المعايرة
+2026-10-05 04:51:56.345 | INFO     | utils.logger:log_section:162 - ============================================================
+2026-10-05 04:51:56.617 | INFO     | utils.calibration:run_interactive:86 - ============================================================
+2026-10-05 04:51:56.618 | INFO     | utils.calibration:run_interactive:87 - 🎯 أداة معايرة Block Blast
+2026-10-05 04:51:56.618 | INFO     | utils.calibration:run_interactive:88 - ============================================================
+2026-10-05 04:51:56.619 | INFO     | utils.calibration:run_interactive:89 - 
+2026-10-05 04:51:56.619 | INFO     | utils.calibration:run_interactive:90 - 📖 التعليمات:
+2026-10-05 04:51:56.620 | INFO     | utils.calibration:run_interactive:91 -    1. ستظهر نافذة بصورة شاشة الهاتف
+2026-10-05 04:51:56.621 | INFO     | utils.calibration:run_interactive:92 -    2. انقر على النقاط المطلوبة بالترتيب
+2026-10-05 04:51:56.621 | INFO     | utils.calibration:run_interactive:93 -    3. انقر على **مركز** الخلية الأولى (وليس حافتها)
+2026-10-05 04:51:56.622 | INFO     | utils.calibration:run_interactive:94 - 
+2026-10-05 04:51:56.622 | INFO     | utils.calibration:run_interactive:95 - ⌨️  المفاتيح:
+2026-10-05 04:51:56.623 | INFO     | utils.calibration:run_interactive:96 -    [R] إعادة الخطوة الحالية
+2026-10-05 04:51:56.623 | INFO     | utils.calibration:run_interactive:97 -    [S] حفظ المعايرة
+2026-10-05 04:51:56.624 | INFO     | utils.calibration:run_interactive:98 -    [Q] خروج بدون حفظ
+2026-10-05 04:51:56.624 | INFO     | utils.calibration:run_interactive:99 - 
+2026-10-05 04:51:58.016 | INFO     | utils.calibration:_capture_screen:141 - 📸 جاري التقاط صورة من الهاتف...
+2026-10-05 04:51:59.085 | SUCCESS  | utils.calibration:_capture_screen:158 - ✅ تم التقاط الصورة: 1080x2400
+2026-10-05 04:51:59.127 | INFO     | utils.calibration:_create_window:171 - 🖼️  اضغط على الصورة لتحديد النقاط
+2026-10-05 04:52:09.277 | INFO     | __main__:<module>:402 - 
+⏹️  خروج
+2026-10-05 04:52:17.678 | INFO     | utils.logger:log_section:160 - ============================================================
+2026-10-05 04:52:17.679 | INFO     | utils.logger:log_section:161 -   وضع المعايرة
+2026-10-05 04:52:17.680 | INFO     | utils.logger:log_section:162 - ============================================================
+2026-10-05 04:52:17.959 | INFO     | utils.calibration:run_interactive:86 - ============================================================
+2026-10-05 04:52:17.960 | INFO     | utils.calibration:run_interactive:87 - 🎯 أداة معايرة Block Blast
+2026-10-05 04:52:17.961 | INFO     | utils.calibration:run_interactive:88 - ============================================================
+2026-10-05 04:52:17.961 | INFO     | utils.calibration:run_interactive:89 - 
+2026-10-05 04:52:17.962 | INFO     | utils.calibration:run_interactive:90 - 📖 التعليمات:
+2026-10-05 04:52:17.962 | INFO     | utils.calibration:run_interactive:91 -    1. ستظهر نافذة بصورة شاشة الهاتف
+2026-10-05 04:52:17.963 | INFO     | utils.calibration:run_interactive:92 -    2. انقر على النقاط المطلوبة بالترتيب
+2026-10-05 04:52:17.963 | INFO     | utils.calibration:run_interactive:93 -    3. انقر على **مركز** الخلية الأولى (وليس حافتها)
+2026-10-05 04:52:17.964 | INFO     | utils.calibration:run_interactive:94 - 
+2026-10-05 04:52:17.964 | INFO     | utils.calibration:run_interactive:95 - ⌨️  المفاتيح:
+2026-10-05 04:52:17.964 | INFO     | utils.calibration:run_interactive:96 -    [R] إعادة الخطوة الحالية
+2026-10-05 04:52:17.965 | INFO     | utils.calibration:run_interactive:97 -    [S] حفظ المعايرة
+2026-10-05 04:52:17.965 | INFO     | utils.calibration:run_interactive:98 -    [Q] خروج بدون حفظ
+2026-10-05 04:52:17.966 | INFO     | utils.calibration:run_interactive:99 - 
+2026-10-05 04:52:19.301 | INFO     | utils.calibration:_capture_screen:141 - 📸 جاري التقاط صورة من الهاتف...
+2026-10-05 04:52:20.475 | SUCCESS  | utils.calibration:_capture_screen:158 - ✅ تم التقاط الصورة: 1080x2400
+2026-10-05 04:52:20.514 | INFO     | utils.calibration:_create_window:171 - 🖼️  اضغط على الصورة لتحديد النقاط
+2026-10-05 04:52:26.480 | INFO     | utils.calibration:_on_mouse:212 - 📍 الزاوية العلوية اليسرى للوحة: (46, 622)
+2026-10-05 04:52:26.481 | INFO     | utils.calibration:_on_mouse:222 -    التالي: الزاوية العلوية اليمنى للوحة
+2026-10-05 04:52:28.916 | INFO     | utils.calibration:_on_mouse:212 - 📍 الزاوية العلوية اليمنى للوحة: (1032, 626)
+2026-10-05 04:52:28.916 | INFO     | utils.calibration:_on_mouse:222 -    التالي: الزاوية السفلية اليسرى للوحة
+2026-10-05 04:52:30.234 | INFO     | utils.calibration:_on_mouse:212 - 📍 الزاوية السفلية اليسرى للوحة: (1024, 1620)
+2026-10-05 04:52:30.234 | INFO     | utils.calibration:_on_mouse:222 -    التالي: الزاوية السفلية اليمنى للوحة
+2026-10-05 04:52:32.044 | INFO     | utils.calibration:_on_mouse:212 - 📍 الزاوية السفلية اليمنى للوحة: (42, 1610)
+2026-10-05 04:52:32.045 | INFO     | utils.calibration:_on_mouse:222 -    التالي: مركز القطعة الأولى (يسار)
+2026-10-05 04:52:38.318 | INFO     | __main__:<module>:402 - 
+⏹️  خروج
+2026-10-05 04:52:40.577 | INFO     | utils.logger:log_section:160 - ============================================================
+2026-10-05 04:52:40.578 | INFO     | utils.logger:log_section:161 -   وضع المعايرة
+2026-10-05 04:52:40.579 | INFO     | utils.logger:log_section:162 - ============================================================
+2026-10-05 04:52:40.850 | INFO     | utils.calibration:run_interactive:86 - ============================================================
+2026-10-05 04:52:40.850 | INFO     | utils.calibration:run_interactive:87 - 🎯 أداة معايرة Block Blast
+2026-10-05 04:52:40.851 | INFO     | utils.calibration:run_interactive:88 - ============================================================
+2026-10-05 04:52:40.851 | INFO     | utils.calibration:run_interactive:89 - 
+2026-10-05 04:52:40.852 | INFO     | utils.calibration:run_interactive:90 - 📖 التعليمات:
+2026-10-05 04:52:40.852 | INFO     | utils.calibration:run_interactive:91 -    1. ستظهر نافذة بصورة شاشة الهاتف
+2026-10-05 04:52:40.853 | INFO     | utils.calibration:run_interactive:92 -    2. انقر على النقاط المطلوبة بالترتيب
+2026-10-05 04:52:40.853 | INFO     | utils.calibration:run_interactive:93 -    3. انقر على **مركز** الخلية الأولى (وليس حافتها)
+2026-10-05 04:52:40.854 | INFO     | utils.calibration:run_interactive:94 - 
+2026-10-05 04:52:40.854 | INFO     | utils.calibration:run_interactive:95 - ⌨️  المفاتيح:
+2026-10-05 04:52:40.855 | INFO     | utils.calibration:run_interactive:96 -    [R] إعادة الخطوة الحالية
+2026-10-05 04:52:40.855 | INFO     | utils.calibration:run_interactive:97 -    [S] حفظ المعايرة
+2026-10-05 04:52:40.856 | INFO     | utils.calibration:run_interactive:98 -    [Q] خروج بدون حفظ
+2026-10-05 04:52:40.856 | INFO     | utils.calibration:run_interactive:99 - 
+2026-10-05 04:52:46.236 | INFO     | utils.calibration:_capture_screen:141 - 📸 جاري التقاط صورة من الهاتف...
+2026-10-05 04:52:48.374 | SUCCESS  | utils.calibration:_capture_screen:158 - ✅ تم التقاط الصورة: 1080x2400
+2026-10-05 04:52:48.415 | INFO     | utils.calibration:_create_window:171 - 🖼️  اضغط على الصورة لتحديد النقاط
+2026-10-05 04:52:50.861 | INFO     | utils.calibration:_on_mouse:212 - 📍 الزاوية العلوية اليسرى للوحة: (58, 634)
+2026-10-05 04:52:50.862 | INFO     | utils.calibration:_on_mouse:222 -    التالي: الزاوية العلوية اليمنى للوحة
+2026-10-05 04:52:53.274 | INFO     | utils.calibration:_on_mouse:212 - 📍 الزاوية العلوية اليمنى للوحة: (1020, 634)
+2026-10-05 04:52:53.275 | INFO     | utils.calibration:_on_mouse:222 -    التالي: الزاوية السفلية اليسرى للوحة
+2026-10-05 04:52:55.062 | INFO     | utils.calibration:_on_mouse:212 - 📍 الزاوية السفلية اليسرى للوحة: (1024, 1598)
+2026-10-05 04:52:55.063 | INFO     | utils.calibration:_on_mouse:222 -    التالي: الزاوية السفلية اليمنى للوحة
+2026-10-05 04:52:58.646 | INFO     | utils.calibration:_on_mouse:212 - 📍 الزاوية السفلية اليمنى للوحة: (56, 1600)
+2026-10-05 04:52:58.647 | INFO     | utils.calibration:_on_mouse:222 -    التالي: مركز القطعة الأولى (يسار)
+2026-10-05 04:52:59.748 | INFO     | utils.calibration:_on_mouse:212 - 📍 مركز القطعة الأولى (يسار): (44, 1612)
+2026-10-05 04:52:59.749 | INFO     | utils.calibration:_on_mouse:222 -    التالي: مركز القطعة الثانية (وسط)
+2026-10-05 04:53:06.587 | INFO     | utils.calibration:_on_mouse:212 - 📍 مركز القطعة الثانية (وسط): (48, 1620)
+2026-10-05 04:53:06.587 | INFO     | utils.calibration:_on_mouse:222 -    التالي: مركز القطعة الثالثة (يمين)
+2026-10-05 04:53:09.242 | INFO     | __main__:<module>:402 - 
+⏹️  خروج
+2026-10-05 04:53:11.408 | INFO     | utils.logger:log_section:160 - ============================================================
+2026-10-05 04:53:11.408 | INFO     | utils.logger:log_section:161 -   وضع المعايرة
+2026-10-05 04:53:11.409 | INFO     | utils.logger:log_section:162 - ============================================================
+2026-10-05 04:53:11.700 | INFO     | utils.calibration:run_interactive:86 - ============================================================
+2026-10-05 04:53:11.700 | INFO     | utils.calibration:run_interactive:87 - 🎯 أداة معايرة Block Blast
+2026-10-05 04:53:11.701 | INFO     | utils.calibration:run_interactive:88 - ============================================================
+2026-10-05 04:53:11.702 | INFO     | utils.calibration:run_interactive:89 - 
+2026-10-05 04:53:11.703 | INFO     | utils.calibration:run_interactive:90 - 📖 التعليمات:
+2026-10-05 04:53:11.704 | INFO     | utils.calibration:run_interactive:91 -    1. ستظهر نافذة بصورة شاشة الهاتف
+2026-10-05 04:53:11.704 | INFO     | utils.calibration:run_interactive:92 -    2. انقر على النقاط المطلوبة بالترتيب
+2026-10-05 04:53:11.704 | INFO     | utils.calibration:run_interactive:93 -    3. انقر على **مركز** الخلية الأولى (وليس حافتها)
+2026-10-05 04:53:11.705 | INFO     | utils.calibration:run_interactive:94 - 
+2026-10-05 04:53:11.705 | INFO     | utils.calibration:run_interactive:95 - ⌨️  المفاتيح:
+2026-10-05 04:53:11.706 | INFO     | utils.calibration:run_interactive:96 -    [R] إعادة الخطوة الحالية
+2026-10-05 04:53:11.706 | INFO     | utils.calibration:run_interactive:97 -    [S] حفظ المعايرة
+2026-10-05 04:53:11.706 | INFO     | utils.calibration:run_interactive:98 -    [Q] خروج بدون حفظ
+2026-10-05 04:53:11.707 | INFO     | utils.calibration:run_interactive:99 - 
+2026-10-05 04:53:12.964 | INFO     | utils.calibration:_capture_screen:141 - 📸 جاري التقاط صورة من الهاتف...
+2026-10-05 04:53:14.167 | SUCCESS  | utils.calibration:_capture_screen:158 - ✅ تم التقاط الصورة: 1080x2400
+2026-10-05 04:53:14.219 | INFO     | utils.calibration:_create_window:171 - 🖼️  اضغط على الصورة لتحديد النقاط
+2026-10-05 04:53:18.368 | INFO     | __main__:<module>:402 - 
+⏹️  خروج
+2026-10-05 04:53:20.028 | INFO     | utils.logger:log_section:160 - ============================================================
+2026-10-05 04:53:20.028 | INFO     | utils.logger:log_section:161 -   وضع المعايرة
+2026-10-05 04:53:20.029 | INFO     | utils.logger:log_section:162 - ============================================================
+2026-10-05 04:53:20.304 | INFO     | utils.calibration:run_interactive:86 - ============================================================
+2026-10-05 04:53:20.305 | INFO     | utils.calibration:run_interactive:87 - 🎯 أداة معايرة Block Blast
+2026-10-05 04:53:20.305 | INFO     | utils.calibration:run_interactive:88 - ============================================================
+2026-10-05 04:53:20.306 | INFO     | utils.calibration:run_interactive:89 - 
+2026-10-05 04:53:20.306 | INFO     | utils.calibration:run_interactive:90 - 📖 التعليمات:
+2026-10-05 04:53:20.307 | INFO     | utils.calibration:run_interactive:91 -    1. ستظهر نافذة بصورة شاشة الهاتف
+2026-10-05 04:53:20.307 | INFO     | utils.calibration:run_interactive:92 -    2. انقر على النقاط المطلوبة بالترتيب
+2026-10-05 04:53:20.308 | INFO     | utils.calibration:run_interactive:93 -    3. انقر على **مركز** الخلية الأولى (وليس حافتها)
+2026-10-05 04:53:20.308 | INFO     | utils.calibration:run_interactive:94 - 
+2026-10-05 04:53:20.309 | INFO     | utils.calibration:run_interactive:95 - ⌨️  المفاتيح:
+2026-10-05 04:53:20.309 | INFO     | utils.calibration:run_interactive:96 -    [R] إعادة الخطوة الحالية
+2026-10-05 04:53:20.310 | INFO     | utils.calibration:run_interactive:97 -    [S] حفظ المعايرة
+2026-10-05 04:53:20.310 | INFO     | utils.calibration:run_interactive:98 -    [Q] خروج بدون حفظ
+2026-10-05 04:53:20.311 | INFO     | utils.calibration:run_interactive:99 - 
+2026-10-05 04:53:20.437 | INFO     | utils.calibration:_capture_screen:141 - 📸 جاري التقاط صورة من الهاتف...
+2026-10-05 04:53:22.159 | SUCCESS  | utils.calibration:_capture_screen:158 - ✅ تم التقاط الصورة: 1080x2400
+2026-10-05 04:53:22.214 | INFO     | utils.calibration:_create_window:171 - 🖼️  اضغط على الصورة لتحديد النقاط
+2026-10-05 04:53:25.082 | INFO     | utils.calibration:_on_mouse:212 - 📍 الزاوية العلوية اليسرى للوحة: (86, 664)
+2026-10-05 04:53:25.083 | INFO     | utils.calibration:_on_mouse:222 -    التالي: الزاوية العلوية اليمنى للوحة
+2026-10-05 04:53:27.092 | INFO     | utils.calibration:_on_mouse:212 - 📍 الزاوية العلوية اليمنى للوحة: (92, 1550)
+2026-10-05 04:53:27.093 | INFO     | utils.calibration:_on_mouse:222 -    التالي: الزاوية السفلية اليسرى للوحة
+2026-10-05 04:53:28.757 | INFO     | utils.calibration:_on_mouse:212 - 📍 الزاوية السفلية اليسرى للوحة: (980, 1560)
+2026-10-05 04:53:28.757 | INFO     | utils.calibration:_on_mouse:222 -    التالي: الزاوية السفلية اليمنى للوحة
+2026-10-05 04:53:31.761 | INFO     | utils.calibration:_on_mouse:212 - 📍 الزاوية السفلية اليمنى للوحة: (980, 666)
+2026-10-05 04:53:31.761 | INFO     | utils.calibration:_on_mouse:222 -    التالي: مركز القطعة الأولى (يسار)
+2026-10-05 04:53:36.904 | INFO     | __main__:<module>:402 - 
+⏹️  خروج
+2026-10-05 04:53:56.433 | INFO     | utils.logger:log_section:160 - ============================================================
+2026-10-05 04:53:56.434 | INFO     | utils.logger:log_section:161 -   وضع المعايرة
+2026-10-05 04:53:56.435 | INFO     | utils.logger:log_section:162 - ============================================================
+2026-10-05 04:53:56.712 | INFO     | utils.calibration:run_interactive:86 - ============================================================
+2026-10-05 04:53:56.712 | INFO     | utils.calibration:run_interactive:87 - 🎯 أداة معايرة Block Blast
+2026-10-05 04:53:56.713 | INFO     | utils.calibration:run_interactive:88 - ============================================================
+2026-10-05 04:53:56.714 | INFO     | utils.calibration:run_interactive:89 - 
+2026-10-05 04:53:56.715 | INFO     | utils.calibration:run_interactive:90 - 📖 التعليمات:
+2026-10-05 04:53:56.715 | INFO     | utils.calibration:run_interactive:91 -    1. ستظهر نافذة بصورة شاشة الهاتف
+2026-10-05 04:53:56.716 | INFO     | utils.calibration:run_interactive:92 -    2. انقر على النقاط المطلوبة بالترتيب
+2026-10-05 04:53:56.717 | INFO     | utils.calibration:run_interactive:93 -    3. انقر على **مركز** الخلية الأولى (وليس حافتها)
+2026-10-05 04:53:56.717 | INFO     | utils.calibration:run_interactive:94 - 
+2026-10-05 04:53:56.717 | INFO     | utils.calibration:run_interactive:95 - ⌨️  المفاتيح:
+2026-10-05 04:53:56.718 | INFO     | utils.calibration:run_interactive:96 -    [R] إعادة الخطوة الحالية
+2026-10-05 04:53:56.718 | INFO     | utils.calibration:run_interactive:97 -    [S] حفظ المعايرة
+2026-10-05 04:53:56.718 | INFO     | utils.calibration:run_interactive:98 -    [Q] خروج بدون حفظ
+2026-10-05 04:53:56.719 | INFO     | utils.calibration:run_interactive:99 - 
+2026-10-05 04:53:57.768 | INFO     | utils.calibration:_capture_screen:141 - 📸 جاري التقاط صورة من الهاتف...
+2026-10-05 04:53:59.614 | SUCCESS  | utils.calibration:_capture_screen:158 - ✅ تم التقاط الصورة: 1080x2400
+2026-10-05 04:53:59.662 | INFO     | utils.calibration:_create_window:171 - 🖼️  اضغط على الصورة لتحديد النقاط
+2026-10-05 04:54:07.812 | INFO     | utils.calibration:_on_mouse:212 - 📍 الزاوية العلوية اليسرى للوحة: (68, 648)
+2026-10-05 04:54:07.813 | INFO     | utils.calibration:_on_mouse:222 -    التالي: الزاوية العلوية اليمنى للوحة
+2026-10-05 04:54:10.175 | INFO     | utils.calibration:_on_mouse:212 - 📍 الزاوية العلوية اليمنى للوحة: (1018, 644)
+2026-10-05 04:54:10.176 | INFO     | utils.calibration:_on_mouse:222 -    التالي: الزاوية السفلية اليسرى للوحة
+2026-10-05 04:54:14.944 | INFO     | utils.calibration:_on_mouse:212 - 📍 الزاوية السفلية اليسرى للوحة: (64, 1584)
+2026-10-05 04:54:14.945 | INFO     | utils.calibration:_on_mouse:222 -    التالي: الزاوية السفلية اليمنى للوحة
+2026-10-05 04:54:17.006 | INFO     | utils.calibration:_on_mouse:212 - 📍 الزاوية السفلية اليمنى للوحة: (1018, 1588)
+2026-10-05 04:54:17.007 | INFO     | utils.calibration:_on_mouse:222 -    التالي: مركز القطعة الأولى (يسار)
+2026-10-05 04:54:34.224 | INFO     | utils.calibration:_on_mouse:212 - 📍 مركز القطعة الأولى (يسار): (102, 680)
+2026-10-05 04:54:34.225 | INFO     | utils.calibration:_on_mouse:222 -    التالي: مركز القطعة الثانية (وسط)
+2026-10-05 04:54:36.884 | INFO     | utils.calibration:_on_mouse:212 - 📍 مركز القطعة الثانية (وسط): (236, 684)
+2026-10-05 04:54:36.885 | INFO     | utils.calibration:_on_mouse:222 -    التالي: مركز القطعة الثالثة (يمين)
+2026-10-05 04:54:39.523 | INFO     | utils.calibration:_on_mouse:212 - 📍 مركز القطعة الثالثة (يمين): (360, 674)
+2026-10-05 04:54:39.524 | SUCCESS  | utils.calibration:_on_mouse:218 - 🎉 اكتملت كل النقاط!
+2026-10-05 04:54:39.525 | INFO     | utils.calibration:_on_mouse:219 -    اضغط [S] للحفظ
+2026-10-05 04:55:24.597 | INFO     | utils.calibration:_on_mouse:198 - ✅ اكتملت كل النقاط — اضغط [S] للحفظ
+2026-10-05 04:56:24.516 | INFO     | __main__:<module>:402 - 
+⏹️  خروج
+2026-10-05 04:56:32.566 | INFO     | utils.logger:log_section:160 - ============================================================
+2026-10-05 04:56:32.567 | INFO     | utils.logger:log_section:161 -   وضع المعايرة
+2026-10-05 04:56:32.568 | INFO     | utils.logger:log_section:162 - ============================================================
+2026-10-05 04:56:32.832 | INFO     | utils.calibration:run_interactive:86 - ============================================================
+2026-10-05 04:56:32.832 | INFO     | utils.calibration:run_interactive:87 - 🎯 أداة معايرة Block Blast
+2026-10-05 04:56:32.833 | INFO     | utils.calibration:run_interactive:88 - ============================================================
+2026-10-05 04:56:32.833 | INFO     | utils.calibration:run_interactive:89 - 
+2026-10-05 04:56:32.834 | INFO     | utils.calibration:run_interactive:90 - 📖 التعليمات:
+2026-10-05 04:56:32.834 | INFO     | utils.calibration:run_interactive:91 -    1. ستظهر نافذة بصورة شاشة الهاتف
+2026-10-05 04:56:32.835 | INFO     | utils.calibration:run_interactive:92 -    2. انقر على النقاط المطلوبة بالترتيب
+2026-10-05 04:56:32.835 | INFO     | utils.calibration:run_interactive:93 -    3. انقر على **مركز** الخلية الأولى (وليس حافتها)
+2026-10-05 04:56:32.836 | INFO     | utils.calibration:run_interactive:94 - 
+2026-10-05 04:56:32.836 | INFO     | utils.calibration:run_interactive:95 - ⌨️  المفاتيح:
+2026-10-05 04:56:32.837 | INFO     | utils.calibration:run_interactive:96 -    [R] إعادة الخطوة الحالية
+2026-10-05 04:56:32.837 | INFO     | utils.calibration:run_interactive:97 -    [S] حفظ المعايرة
+2026-10-05 04:56:32.838 | INFO     | utils.calibration:run_interactive:98 -    [Q] خروج بدون حفظ
+2026-10-05 04:56:32.838 | INFO     | utils.calibration:run_interactive:99 - 
+2026-10-05 04:56:36.430 | INFO     | utils.calibration:_capture_screen:141 - 📸 جاري التقاط صورة من الهاتف...
+2026-10-05 04:56:37.414 | SUCCESS  | utils.calibration:_capture_screen:158 - ✅ تم التقاط الصورة: 1080x2400
+2026-10-05 04:56:37.473 | INFO     | utils.calibration:_create_window:171 - 🖼️  اضغط على الصورة لتحديد النقاط
+2026-10-05 04:56:44.560 | INFO     | __main__:<module>:402 - 
+⏹️  خروج
+2026-10-05 04:56:55.375 | INFO     | utils.logger:log_section:160 - ============================================================
+2026-10-05 04:56:55.376 | INFO     | utils.logger:log_section:161 -   وضع المعايرة
+2026-10-05 04:56:55.376 | INFO     | utils.logger:log_section:162 - ============================================================
+2026-10-05 04:56:55.629 | INFO     | utils.calibration:run_interactive:86 - ============================================================
+2026-10-05 04:56:55.630 | INFO     | utils.calibration:run_interactive:87 - 🎯 أداة معايرة Block Blast
+2026-10-05 04:56:55.631 | INFO     | utils.calibration:run_interactive:88 - ============================================================
+2026-10-05 04:56:55.632 | INFO     | utils.calibration:run_interactive:89 - 
+2026-10-05 04:56:55.633 | INFO     | utils.calibration:run_interactive:90 - 📖 التعليمات:
+2026-10-05 04:56:55.633 | INFO     | utils.calibration:run_interactive:91 -    1. ستظهر نافذة بصورة شاشة الهاتف
+2026-10-05 04:56:55.634 | INFO     | utils.calibration:run_interactive:92 -    2. انقر على النقاط المطلوبة بالترتيب
+2026-10-05 04:56:55.634 | INFO     | utils.calibration:run_interactive:93 -    3. انقر على **مركز** الخلية الأولى (وليس حافتها)
+2026-10-05 04:56:55.635 | INFO     | utils.calibration:run_interactive:94 - 
+2026-10-05 04:56:55.635 | INFO     | utils.calibration:run_interactive:95 - ⌨️  المفاتيح:
+2026-10-05 04:56:55.636 | INFO     | utils.calibration:run_interactive:96 -    [R] إعادة الخطوة الحالية
+2026-10-05 04:56:55.636 | INFO     | utils.calibration:run_interactive:97 -    [S] حفظ المعايرة
+2026-10-05 04:56:55.636 | INFO     | utils.calibration:run_interactive:98 -    [Q] خروج بدون حفظ
+2026-10-05 04:56:55.636 | INFO     | utils.calibration:run_interactive:99 - 
+2026-10-05 04:56:55.637 | INFO     | utils.calibration:_capture_screen:141 - 📸 جاري التقاط صورة من الهاتف...
+2026-10-05 04:56:56.771 | SUCCESS  | utils.calibration:_capture_screen:158 - ✅ تم التقاط الصورة: 1080x2400
+2026-10-05 04:56:56.811 | INFO     | utils.calibration:_create_window:171 - 🖼️  اضغط على الصورة لتحديد النقاط
+2026-10-05 04:57:13.803 | INFO     | utils.calibration:_on_mouse:212 - 📍 الزاوية العلوية اليسرى للوحة: (80, 656)
+2026-10-05 04:57:13.804 | INFO     | utils.calibration:_on_mouse:222 -    التالي: الزاوية العلوية اليمنى للوحة
+2026-10-05 04:57:16.459 | INFO     | utils.calibration:_on_mouse:212 - 📍 الزاوية العلوية اليمنى للوحة: (1004, 654)
+2026-10-05 04:57:16.459 | INFO     | utils.calibration:_on_mouse:222 -    التالي: الزاوية السفلية اليسرى للوحة
+2026-10-05 04:57:18.757 | INFO     | utils.calibration:_on_mouse:212 - 📍 الزاوية السفلية اليسرى للوحة: (1014, 1574)
+2026-10-05 04:57:18.757 | INFO     | utils.calibration:_on_mouse:222 -    التالي: الزاوية السفلية اليمنى للوحة
+2026-10-05 04:57:22.687 | INFO     | utils.calibration:_on_mouse:212 - 📍 الزاوية السفلية اليمنى للوحة: (74, 1572)
+2026-10-05 04:57:22.688 | INFO     | utils.calibration:_on_mouse:222 -    التالي: مركز القطعة الأولى (يسار)
+2026-10-05 04:57:26.473 | INFO     | __main__:<module>:402 - 
+⏹️  خروج
+2026-10-05 04:57:28.751 | INFO     | utils.logger:log_section:160 - ============================================================
+2026-10-05 04:57:28.752 | INFO     | utils.logger:log_section:161 -   وضع المعايرة
+2026-10-05 04:57:28.753 | INFO     | utils.logger:log_section:162 - ============================================================
+2026-10-05 04:57:29.028 | INFO     | utils.calibration:run_interactive:86 - ============================================================
+2026-10-05 04:57:29.029 | INFO     | utils.calibration:run_interactive:87 - 🎯 أداة معايرة Block Blast
+2026-10-05 04:57:29.030 | INFO     | utils.calibration:run_interactive:88 - ============================================================
+2026-10-05 04:57:29.030 | INFO     | utils.calibration:run_interactive:89 - 
+2026-10-05 04:57:29.031 | INFO     | utils.calibration:run_interactive:90 - 📖 التعليمات:
+2026-10-05 04:57:29.031 | INFO     | utils.calibration:run_interactive:91 -    1. ستظهر نافذة بصورة شاشة الهاتف
+2026-10-05 04:57:29.032 | INFO     | utils.calibration:run_interactive:92 -    2. انقر على النقاط المطلوبة بالترتيب
+2026-10-05 04:57:29.033 | INFO     | utils.calibration:run_interactive:93 -    3. انقر على **مركز** الخلية الأولى (وليس حافتها)
+2026-10-05 04:57:29.033 | INFO     | utils.calibration:run_interactive:94 - 
+2026-10-05 04:57:29.034 | INFO     | utils.calibration:run_interactive:95 - ⌨️  المفاتيح:
+2026-10-05 04:57:29.034 | INFO     | utils.calibration:run_interactive:96 -    [R] إعادة الخطوة الحالية
+2026-10-05 04:57:29.035 | INFO     | utils.calibration:run_interactive:97 -    [S] حفظ المعايرة
+2026-10-05 04:57:29.035 | INFO     | utils.calibration:run_interactive:98 -    [Q] خروج بدون حفظ
+2026-10-05 04:57:29.036 | INFO     | utils.calibration:run_interactive:99 - 
+2026-10-05 04:57:30.709 | INFO     | utils.calibration:_capture_screen:141 - 📸 جاري التقاط صورة من الهاتف...
+2026-10-05 04:57:32.177 | SUCCESS  | utils.calibration:_capture_screen:158 - ✅ تم التقاط الصورة: 1080x2400
+2026-10-05 04:57:32.218 | INFO     | utils.calibration:_create_window:171 - 🖼️  اضغط على الصورة لتحديد النقاط
+2026-10-05 04:57:37.947 | INFO     | __main__:<module>:402 - 
+⏹️  خروج
+2026-10-05 04:57:40.324 | INFO     | utils.logger:log_section:160 - ============================================================
+2026-10-05 04:57:40.325 | INFO     | utils.logger:log_section:161 -   وضع المعايرة
+2026-10-05 04:57:40.325 | INFO     | utils.logger:log_section:162 - ============================================================
+2026-10-05 04:57:40.594 | INFO     | utils.calibration:run_interactive:86 - ============================================================
+2026-10-05 04:57:40.595 | INFO     | utils.calibration:run_interactive:87 - 🎯 أداة معايرة Block Blast
+2026-10-05 04:57:40.595 | INFO     | utils.calibration:run_interactive:88 - ============================================================
+2026-10-05 04:57:40.596 | INFO     | utils.calibration:run_interactive:89 - 
+2026-10-05 04:57:40.597 | INFO     | utils.calibration:run_interactive:90 - 📖 التعليمات:
+2026-10-05 04:57:40.597 | INFO     | utils.calibration:run_interactive:91 -    1. ستظهر نافذة بصورة شاشة الهاتف
+2026-10-05 04:57:40.599 | INFO     | utils.calibration:run_interactive:92 -    2. انقر على النقاط المطلوبة بالترتيب
+2026-10-05 04:57:40.599 | INFO     | utils.calibration:run_interactive:93 -    3. انقر على **مركز** الخلية الأولى (وليس حافتها)
+2026-10-05 04:57:40.600 | INFO     | utils.calibration:run_interactive:94 - 
+2026-10-05 04:57:40.601 | INFO     | utils.calibration:run_interactive:95 - ⌨️  المفاتيح:
+2026-10-05 04:57:40.601 | INFO     | utils.calibration:run_interactive:96 -    [R] إعادة الخطوة الحالية
+2026-10-05 04:57:40.602 | INFO     | utils.calibration:run_interactive:97 -    [S] حفظ المعايرة
+2026-10-05 04:57:40.602 | INFO     | utils.calibration:run_interactive:98 -    [Q] خروج بدون حفظ
+2026-10-05 04:57:40.602 | INFO     | utils.calibration:run_interactive:99 - 
+2026-10-05 04:57:41.116 | INFO     | utils.calibration:_capture_screen:141 - 📸 جاري التقاط صورة من الهاتف...
+2026-10-05 04:57:42.297 | SUCCESS  | utils.calibration:_capture_screen:158 - ✅ تم التقاط الصورة: 1080x2400
+2026-10-05 04:57:42.347 | INFO     | utils.calibration:_create_window:171 - 🖼️  اضغط على الصورة لتحديد النقاط
+2026-10-05 04:57:45.246 | INFO     | utils.calibration:_on_mouse:212 - 📍 الزاوية العلوية اليسرى للوحة: (72, 652)
+2026-10-05 04:57:45.247 | INFO     | utils.calibration:_on_mouse:222 -    التالي: الزاوية العلوية اليمنى للوحة
+2026-10-05 04:57:47.134 | INFO     | utils.calibration:_on_mouse:212 - 📍 الزاوية العلوية اليمنى للوحة: (1010, 656)
+2026-10-05 04:57:47.135 | INFO     | utils.calibration:_on_mouse:222 -    التالي: الزاوية السفلية اليسرى للوحة
+2026-10-05 04:57:50.553 | INFO     | utils.calibration:_on_mouse:212 - 📍 الزاوية السفلية اليسرى للوحة: (74, 1574)
+2026-10-05 04:57:50.554 | INFO     | utils.calibration:_on_mouse:222 -    التالي: الزاوية السفلية اليمنى للوحة
+2026-10-05 04:57:54.140 | INFO     | utils.calibration:_on_mouse:212 - 📍 الزاوية السفلية اليمنى للوحة: (1016, 1576)
+2026-10-05 04:57:54.141 | INFO     | utils.calibration:_on_mouse:222 -    التالي: مركز القطعة الأولى (يسار)
+2026-10-05 04:58:08.343 | INFO     | utils.calibration:_on_mouse:212 - 📍 مركز القطعة الأولى (يسار): (214, 1852)
+2026-10-05 04:58:08.343 | INFO     | utils.calibration:_on_mouse:222 -    التالي: مركز القطعة الثانية (وسط)
+2026-10-05 04:58:10.091 | INFO     | utils.calibration:_on_mouse:212 - 📍 مركز القطعة الثانية (وسط): (526, 1852)
+2026-10-05 04:58:10.092 | INFO     | utils.calibration:_on_mouse:222 -    التالي: مركز القطعة الثالثة (يمين)
+2026-10-05 04:58:12.766 | INFO     | utils.calibration:_on_mouse:212 - 📍 مركز القطعة الثالثة (يمين): (870, 1848)
+2026-10-05 04:58:12.767 | SUCCESS  | utils.calibration:_on_mouse:218 - 🎉 اكتملت كل النقاط!
+2026-10-05 04:58:12.768 | INFO     | utils.calibration:_on_mouse:219 -    اضغط [S] للحفظ
+2026-10-05 04:58:55.790 | INFO     | utils.calibration:_on_mouse:198 - ✅ اكتملت كل النقاط — اضغط [S] للحفظ
+2026-10-05 04:58:59.268 | INFO     | utils.calibration:_on_mouse:198 - ✅ اكتملت كل النقاط — اضغط [S] للحفظ
+2026-10-05 05:00:05.704 | INFO     | __main__:<module>:402 - 
+⏹️  خروج
+2026-10-05 05:00:43.415 | INFO     | utils.logger:log_section:160 - ============================================================
+2026-10-05 05:00:43.415 | INFO     | utils.logger:log_section:161 -   وضع المعايرة
+2026-10-05 05:00:43.416 | INFO     | utils.logger:log_section:162 - ============================================================
+2026-10-05 05:00:43.698 | INFO     | utils.calibration:run_interactive:86 - ============================================================
+2026-10-05 05:00:43.698 | INFO     | utils.calibration:run_interactive:87 - 🎯 أداة معايرة Block Blast
+2026-10-05 05:00:43.699 | INFO     | utils.calibration:run_interactive:88 - ============================================================
+2026-10-05 05:00:43.700 | INFO     | utils.calibration:run_interactive:89 - 
+2026-10-05 05:00:43.700 | INFO     | utils.calibration:run_interactive:90 - 📖 التعليمات:
+2026-10-05 05:00:43.701 | INFO     | utils.calibration:run_interactive:91 -    1. ستظهر نافذة بصورة شاشة الهاتف
+2026-10-05 05:00:43.701 | INFO     | utils.calibration:run_interactive:92 -    2. انقر على النقاط المطلوبة بالترتيب
+2026-10-05 05:00:43.702 | INFO     | utils.calibration:run_interactive:93 -    3. انقر على **مركز** الخلية الأولى (وليس حافتها)
+2026-10-05 05:00:43.702 | INFO     | utils.calibration:run_interactive:94 - 
+2026-10-05 05:00:43.703 | INFO     | utils.calibration:run_interactive:95 - ⌨️  المفاتيح:
+2026-10-05 05:00:43.703 | INFO     | utils.calibration:run_interactive:96 -    [R] إعادة الخطوة الحالية
+2026-10-05 05:00:43.704 | INFO     | utils.calibration:run_interactive:97 -    [S] حفظ المعايرة
+2026-10-05 05:00:43.704 | INFO     | utils.calibration:run_interactive:98 -    [Q] خروج بدون حفظ
+2026-10-05 05:00:43.705 | INFO     | utils.calibration:run_interactive:99 - 
+2026-10-05 05:00:45.050 | INFO     | utils.calibration:_capture_screen:141 - 📸 جاري التقاط صورة من الهاتف...
+2026-10-05 05:00:46.158 | SUCCESS  | utils.calibration:_capture_screen:158 - ✅ تم التقاط الصورة: 1080x2400
+2026-10-05 05:00:46.200 | INFO     | utils.calibration:_create_window:171 - 🖼️  اضغط على الصورة لتحديد النقاط
+2026-10-05 05:00:50.487 | INFO     | utils.calibration:_on_mouse:212 - 📍 الزاوية العلوية اليسرى للوحة: (90, 670)
+2026-10-05 05:00:50.488 | INFO     | utils.calibration:_on_mouse:222 -    التالي: الزاوية العلوية اليمنى للوحة
+2026-10-05 05:00:52.658 | INFO     | utils.calibration:_on_mouse:212 - 📍 الزاوية العلوية اليمنى للوحة: (978, 668)
+2026-10-05 05:00:52.659 | INFO     | utils.calibration:_on_mouse:222 -    التالي: الزاوية السفلية اليسرى للوحة
+2026-10-05 05:00:56.903 | INFO     | utils.calibration:_on_mouse:212 - 📍 الزاوية السفلية اليسرى للوحة: (86, 1558)
+2026-10-05 05:00:56.904 | INFO     | utils.calibration:_on_mouse:222 -    التالي: الزاوية السفلية اليمنى للوحة
+2026-10-05 05:01:00.514 | INFO     | utils.calibration:_on_mouse:212 - 📍 الزاوية السفلية اليمنى للوحة: (990, 1568)
+2026-10-05 05:01:00.515 | INFO     | utils.calibration:_on_mouse:222 -    التالي: مركز القطعة الأولى (يسار)
+2026-10-05 05:01:05.194 | INFO     | utils.calibration:_on_mouse:212 - 📍 مركز القطعة الأولى (يسار): (214, 1840)
+2026-10-05 05:01:05.195 | INFO     | utils.calibration:_on_mouse:222 -    التالي: مركز القطعة الثانية (وسط)
+2026-10-05 05:01:08.688 | INFO     | utils.calibration:_on_mouse:212 - 📍 مركز القطعة الثانية (وسط): (498, 1840)
+2026-10-05 05:01:08.688 | INFO     | utils.calibration:_on_mouse:222 -    التالي: مركز القطعة الثالثة (يمين)
+2026-10-05 05:01:12.148 | INFO     | utils.calibration:_on_mouse:212 - 📍 مركز القطعة الثالثة (يمين): (868, 1840)
+2026-10-05 05:01:12.148 | SUCCESS  | utils.calibration:_on_mouse:218 - 🎉 اكتملت كل النقاط!
+2026-10-05 05:01:12.149 | INFO     | utils.calibration:_on_mouse:219 -    اضغط [S] للحفظ
+2026-10-05 05:01:44.057 | INFO     | __main__:<module>:402 - 
+⏹️  خروج
+2026-10-05 05:03:16.827 | DEBUG    | utils.logger:setup_logger:126 - ✅ تم إعداد نظام السجل (المستوى: DEBUG)
+2026-10-05 05:03:16.828 | INFO     | utils.logger:log_section:160 - ============================================================
+2026-10-05 05:03:16.829 | INFO     | utils.logger:log_section:161 -   اختبار Board Detector
+2026-10-05 05:03:16.829 | INFO     | utils.logger:log_section:162 - ============================================================
+2026-10-05 05:03:17.106 | SUCCESS  | __main__:<module>:409 - ✅ الهاتف متصل
+2026-10-05 05:03:17.107 | DEBUG    | core.screen_capture:__init__:64 - 📸 ScreenCapture جاهز (الطريقة: adb)
+2026-10-05 05:03:18.858 | SUCCESS  | __main__:<module>:418 - ✅ تم التقاط الصورة: (2400, 1080, 3)
+2026-10-05 05:03:18.859 | DEBUG    | __main__:__init__:64 - 🔍 BoardDetector جاهز — 8×8, cell=100px, start=(100,1100)
+2026-10-05 05:03:18.859 | INFO     | __main__:<module>:422 - 📐 إعدادات اللوحة: start=(100,1100), cell=100
+2026-10-05 05:03:18.884 | DEBUG    | __main__:detect:108 - 🔍 اللوحة: 64/64 خلية ملونة
+2026-10-05 05:03:18.981 | SUCCESS  | __main__:<module>:439 - 💾 تم حفظ صورة التشخيص: C:\Users\Kh_Sa\OneDrive\Desktop\block-blast-bot\debug\board_detection.png
+2026-10-05 05:03:19.074 | INFO     | __main__:<module>:448 - 👁️  اضغط أي مفتاح في نافذة العرض للإغلاق
+2026-10-05 05:03:47.291 | INFO     | utils.logger:log_section:160 - ------------------------------------------------------------
+2026-10-05 05:03:47.292 | INFO     | utils.logger:log_section:161 -   انتهى الاختبار بنجاح
+2026-10-05 05:03:47.293 | INFO     | utils.logger:log_section:162 - ------------------------------------------------------------

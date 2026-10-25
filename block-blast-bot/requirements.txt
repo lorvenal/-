@@ -1,0 +1,18 @@
+# Block Blast Bot - Dependencies
+# ================================
+
+# Core
+opencv-python==4.9.0.80
+numpy==1.26.4
+Pillow==10.3.0
+
+# ADB & Device
+pure-python-adb==0.3.0.dev0
+
+# Logging
+loguru==0.7.2
+
+# Optional (للمستقبل)
+# uiautomator2==3.2.0
+# scrcpy-client==0.5.1
+# keyboard==0.13.5

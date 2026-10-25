@@ -1,0 +1,42 @@
+2026-10-05 03:50:09.959 | ERROR | __main__:check_environment:67
+❌ لا يوجد هاتف متصل عبر USB!
+
+2026-10-05 03:50:09.959 | ERROR | __main__:check_environment:68
+   تأكد من:
+
+2026-10-05 03:50:09.961 | ERROR | __main__:check_environment:69
+   1. تفعيل USB Debugging في الهاتف
+
+2026-10-05 03:50:09.962 | ERROR | __main__:check_environment:70
+   2. توصيل الكابل
+
+2026-10-05 03:50:09.963 | ERROR | __main__:check_environment:71
+   3. الموافقة على الطلب في الهاتف
+
+2026-10-05 03:50:09.964 | ERROR | __main__:check_environment:72
+
+
+2026-10-05 03:50:09.964 | ERROR | __main__:check_environment:73
+   جرّب: adb devices
+
+2026-10-05 03:53:34.972 | ERROR | __main__:check_environment:67
+❌ لا يوجد هاتف متصل عبر USB!
+
+2026-10-05 03:53:34.973 | ERROR | __main__:check_environment:68
+   تأكد من:
+
+2026-10-05 03:53:34.976 | ERROR | __main__:check_environment:69
+   1. تفعيل USB Debugging في الهاتف
+
+2026-10-05 03:53:34.978 | ERROR | __main__:check_environment:70
+   2. توصيل الكابل
+
+2026-10-05 03:53:34.980 | ERROR | __main__:check_environment:71
+   3. الموافقة على الطلب في الهاتف
+
+2026-10-05 03:53:34.982 | ERROR | __main__:check_environment:72
+
+
+2026-10-05 03:53:34.983 | ERROR | __main__:check_environment:73
+   جرّب: adb devices
+
