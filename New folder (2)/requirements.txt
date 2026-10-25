@@ -1,0 +1,7 @@
+discord.py-self>=2.1.0
+aiohttp>=3.9.0
+requests>=2.31.0
+colorama>=0.4.6
+curl_cffi>=0.6.0
+tzlocal>=5.0
+discord_protos>=0.0.2
