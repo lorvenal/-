@@ -1,0 +1,15 @@
+{
+  "tasks": [
+    {
+      "type": "join",
+      "invite": "https://discord.gg/xxxxx",
+      "accounts": ["حساب 1", "حساب 2"]
+    },
+    {
+      "type": "react",
+      "message_url": "https://discord.com/channels/111/222/333",
+      "emoji": "👍",
+      "accounts": ["حساب 1"]
+    }
+  ]
+}

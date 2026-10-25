@@ -1,0 +1,14 @@
+{
+  "accounts": [
+    {
+      "name": "حساب 1",
+      "token": "ضع_التوكن_هنا",
+      "enabled": true
+    },
+    {
+      "name": "حساب 2",
+      "token": "ضع_التوكن_هنا",
+      "enabled": true
+    }
+  ]
+}
